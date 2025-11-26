@@ -31,7 +31,7 @@
 			</div>
 			<div class="flex flex-col sm:flex-row gap-4">
 				<a
-					href="#quote"
+					href="#quote-form"
 					class="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg text-center shadow-lg"
 					>Get Free Quote</a
 				>

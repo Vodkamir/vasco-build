@@ -5,7 +5,7 @@
 				<div class="flex items-center space-x-2 mb-4">
 					<i class="fas fa-car text-orange-600 text-3xl"></i>
 					<span class="text-2xl font-bold text-white"
-						>ScrapCar<span class="text-orange-600">Pro</span></span
+						>ScrapMyCar<span class="text-orange-600">Ltd</span></span
 					>
 				</div>
 				<p class="text-gray-400 mb-4">
@@ -46,15 +46,15 @@
 				<ul class="space-y-3">
 					<li class="flex items-start space-x-2">
 						<i class="fas fa-phone text-orange-600 mt-1"></i>
-						<span>0800 123 4567</span>
+						<span>07846 418201</span>
 					</li>
 					<li class="flex items-start space-x-2">
 						<i class="fas fa-envelope text-orange-600 mt-1"></i>
-						<span>info@scrapcarpro.com</span>
+						<span>iscrapmycar@gmail.com</span>
 					</li>
 					<li class="flex items-start space-x-2">
 						<i class="fas fa-map-marker-alt text-orange-600 mt-1"></i>
-						<span>123 Scrap Yard Lane<br />London, UK</span>
+						<span>Albion Parade Canal Basin<br />Gravesend, Kent DA12 2RW</span>
 					</li>
 				</ul>
 			</div>

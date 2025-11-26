@@ -82,7 +82,7 @@
 					</h3>
 					<p class="text-gray-600 mb-6">Join thousands of satisfied customers who chose us</p>
 					<a
-						href="#quote"
+						href="#quote-form"
 						class="inline-block bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg shadow-lg"
 						>Get Your Free Quote</a
 					>

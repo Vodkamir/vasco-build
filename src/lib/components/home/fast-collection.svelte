@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<a
-					href="#quote"
+					href="#quote-form"
 					class="inline-block bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg shadow-lg"
 					>Schedule Collection Now</a
 				>
@@ -61,3 +61,4 @@
 		</div>
 	</div>
 </section>
+$ git config --global user.name "Vodkamir"
