@@ -61,4 +61,3 @@
 		</div>
 	</div>
 </section>
-$ git config --global user.name "Vodkamir"
