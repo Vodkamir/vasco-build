@@ -1,4 +1,5 @@
 <script>
+	import { resolve } from '$app/paths';
 	let aaaa = $state(false);
 
 	// function toggleMenu() {
@@ -23,7 +24,7 @@
 				<a href="#why-us" class="text-gray-700 hover:text-orange-600 transition">Why Choose Us</a>
 				<a href="#contact" class="text-gray-700 hover:text-orange-600 transition">Contact</a>
 				<a
-					href="#quote"
+					href={resolve('/home')}
 					class="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition font-semibold"
 					>Get Free Quote</a
 				>

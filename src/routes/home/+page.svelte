@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Get Cash for Your Unwanted Car Today</title>
+		<title>Get Cash for Your Unwanted Car Today - ScrapMyCarLtd</title>
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link
 			rel="stylesheet"
@@ -16,11 +16,11 @@
 				<div class="flex items-center justify-between">
 					<div class="flex items-center space-x-2">
 						<i class="fas fa-car text-orange-600 text-3xl"></i>
-						<span class="text-2xl font-bold text-gray-800"
-							>ScrapCar<span class="text-orange-600">Pro</span></span
+						<span class="text-xl md:text-2xl font-bold text-gray-800"
+							>ScrapMyCar<span class="text-orange-600">Ltd</span></span
 						>
 					</div>
-					<div class="hidden md:flex items-center space-x-8">
+					<div id="desktopMenu" class="hidden md:flex items-center space-x-8">
 						<a href="#how-it-works" class="text-gray-700 hover:text-orange-600 transition"
 							>How It Works</a
 						>
@@ -30,14 +30,33 @@
 						>
 						<a href="#contact" class="text-gray-700 hover:text-orange-600 transition">Contact</a>
 						<a
-							href="#quote"
+							href="#quote-form"
 							class="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition font-semibold"
 							>Get Free Quote</a
 						>
 					</div>
-					<button class="md:hidden text-gray-700 text-2xl">
+					<button id="mobileMenuBtn" class="md:hidden text-gray-700 text-2xl focus:outline-none">
 						<i class="fas fa-bars"></i>
 					</button>
+				</div>
+				<div id="mobileMenu" class="hidden md:hidden mt-4 pb-4 space-y-3">
+					<a href="#how-it-works" class="block text-gray-700 hover:text-orange-600 transition py-2"
+						>How It Works</a
+					>
+					<a href="#services" class="block text-gray-700 hover:text-orange-600 transition py-2"
+						>Services</a
+					>
+					<a href="#why-us" class="block text-gray-700 hover:text-orange-600 transition py-2"
+						>Why Choose Us</a
+					>
+					<a href="#contact" class="block text-gray-700 hover:text-orange-600 transition py-2"
+						>Contact</a
+					>
+					<a
+						href="#quote-form"
+						class="block bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition font-semibold text-center"
+						>Get Free Quote</a
+					>
 				</div>
 			</nav>
 		</header>
@@ -75,7 +94,7 @@
 					</div>
 					<div class="flex flex-col sm:flex-row gap-4">
 						<a
-							href="#quote"
+							href="#quote-form"
 							class="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg text-center shadow-lg"
 							>Get Free Quote</a
 						>
@@ -280,7 +299,7 @@
 							</div>
 						</div>
 						<a
-							href="#quote"
+							href="#quote-form"
 							class="inline-block bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg shadow-lg"
 							>Schedule Collection Now</a
 						>
@@ -380,7 +399,7 @@
 							</h3>
 							<p class="text-gray-600 mb-6">Join thousands of satisfied customers who chose us</p>
 							<a
-								href="#quote"
+								href="#quote-form"
 								class="inline-block bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg shadow-lg"
 								>Get Your Free Quote</a
 							>
@@ -398,7 +417,7 @@
 				</p>
 				<div class="flex flex-col sm:flex-row gap-4 justify-center">
 					<a
-						href="#quote"
+						href="#quote-form"
 						class="bg-white text-orange-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition font-bold text-lg shadow-lg"
 						>Get Free Quote Now</a
 					>
@@ -413,14 +432,105 @@
 			</div>
 		</section>
 
+		<section id="quote-form" class="py-16 md:py-24 bg-gray-50">
+			<div class="container mx-auto px-4">
+				<div class="max-w-2xl mx-auto">
+					<div class="text-center mb-12">
+						<h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">Get Your Free Quote</h2>
+						<p class="text-xl text-gray-600">
+							Fill in your details and we'll get back to you with a cash offer
+						</p>
+					</div>
+					<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+						<form id="quoteForm" class="space-y-6">
+							<div>
+								<label for="makeModel" class="block text-gray-700 font-semibold mb-2"
+									>Make/Model *</label
+								>
+								<input
+									type="text"
+									id="makeModel"
+									name="makeModel"
+									required
+									class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-orange-600 focus:outline-none transition"
+									placeholder="e.g., Ford Focus"
+								/>
+							</div>
+							<div>
+								<label for="registration" class="block text-gray-700 font-semibold mb-2"
+									>Car Registration Number *</label
+								>
+								<input
+									type="text"
+									id="registration"
+									name="registration"
+									required
+									class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-orange-600 focus:outline-none transition uppercase"
+									placeholder="e.g., AB12 CDE"
+								/>
+							</div>
+							<div>
+								<label for="postcode" class="block text-gray-700 font-semibold mb-2"
+									>Postal Code *</label
+								>
+								<input
+									type="text"
+									id="postcode"
+									name="postcode"
+									required
+									class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-orange-600 focus:outline-none transition uppercase"
+									placeholder="e.g., SW1A 1AA"
+								/>
+							</div>
+							<div>
+								<label for="phone" class="block text-gray-700 font-semibold mb-2"
+									>Phone Number *</label
+								>
+								<input
+									type="tel"
+									id="phone"
+									name="phone"
+									required
+									class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-orange-600 focus:outline-none transition"
+									placeholder="e.g., 07123 456789"
+								/>
+							</div>
+							<div>
+								<label for="email" class="block text-gray-700 font-semibold mb-2">Email *</label>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									required
+									class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-orange-600 focus:outline-none transition"
+									placeholder="e.g., your@email.com"
+								/>
+							</div>
+							<div class="pt-4">
+								<button
+									type="submit"
+									class="w-full bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition font-bold text-lg shadow-lg"
+									>Get My Free Quote</button
+								>
+							</div>
+							<p class="text-sm text-gray-500 text-center">
+								By submitting this form, you agree to our terms and conditions. We'll never share
+								your information.
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<footer id="contact" class="bg-gray-900 text-gray-300 py-12">
 			<div class="container mx-auto px-4">
 				<div class="grid md:grid-cols-4 gap-8 mb-8">
 					<div>
 						<div class="flex items-center space-x-2 mb-4">
 							<i class="fas fa-car text-orange-600 text-3xl"></i>
-							<span class="text-2xl font-bold text-white"
-								>ScrapCar<span class="text-orange-600">Pro</span></span
+							<span class="text-xl md:text-2xl font-bold text-white"
+								>ScrapMyCar<span class="text-orange-600">Ltd</span></span
 							>
 						</div>
 						<p class="text-gray-400 mb-4">
@@ -446,7 +556,9 @@
 							</li>
 							<li><a href="#services" class="hover:text-orange-600 transition">Our Services</a></li>
 							<li><a href="#why-us" class="hover:text-orange-600 transition">Why Choose Us</a></li>
-							<li><a href="#quote" class="hover:text-orange-600 transition">Get a Quote</a></li>
+							<li>
+								<a href="#quote-form" class="hover:text-orange-600 transition">Get a Quote</a>
+							</li>
 						</ul>
 					</div>
 					<div>
@@ -467,7 +579,7 @@
 							</li>
 							<li class="flex items-start space-x-2">
 								<i class="fas fa-envelope text-orange-600 mt-1"></i>
-								<span>info@scrapcarpro.com</span>
+								<span>info@scrapmycarltd.com</span>
 							</li>
 							<li class="flex items-start space-x-2">
 								<i class="fas fa-map-marker-alt text-orange-600 mt-1"></i>
@@ -478,10 +590,44 @@
 				</div>
 				<div class="border-t border-gray-800 pt-8 text-center">
 					<p class="text-gray-400">
-						&copy; 2024 ScrapCarPro. All rights reserved. Licensed & Authorized Scrap Dealer.
+						&copy; 2024 ScrapMyCarLtd. All rights reserved. Licensed & Authorized Scrap Dealer.
 					</p>
 				</div>
 			</div>
 		</footer>
+
+		<script>
+			const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+			const mobileMenu = document.getElementById('mobileMenu');
+
+			mobileMenuBtn.addEventListener('click', function () {
+				mobileMenu.classList.toggle('hidden');
+				const icon = mobileMenuBtn.querySelector('i');
+				if (mobileMenu.classList.contains('hidden')) {
+					icon.classList.remove('fa-times');
+					icon.classList.add('fa-bars');
+				} else {
+					icon.classList.remove('fa-bars');
+					icon.classList.add('fa-times');
+				}
+			});
+
+			const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+			mobileMenuLinks.forEach((link) => {
+				link.addEventListener('click', function () {
+					mobileMenu.classList.add('hidden');
+					const icon = mobileMenuBtn.querySelector('i');
+					icon.classList.remove('fa-times');
+					icon.classList.add('fa-bars');
+				});
+			});
+
+			const quoteForm = document.getElementById('quoteForm');
+			quoteForm.addEventListener('submit', function (e) {
+				e.preventDefault();
+				alert('Thank you! We will contact you shortly with your quote.');
+				quoteForm.reset();
+			});
+		</script>
 	</body>
 </html>

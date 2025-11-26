@@ -48,7 +48,7 @@
 				>
 					<i class="fas fa-calendar-times text-2xl"></i>
 				</div>
-				<h3 class="text-xl font-bold text-gray-900 mb-2">Old &amp; Unwanted</h3>
+				<h3 class="text-xl font-bold text-gray-900 mb-2">Old & Unwanted</h3>
 				<p class="text-gray-600">Aging vehicles that are no longer worth repairing</p>
 			</div>
 			<div
