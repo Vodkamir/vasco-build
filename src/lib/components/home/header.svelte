@@ -12,7 +12,7 @@
 			<div class="flex items-center space-x-2">
 				<i class="fas fa-car text-orange-600 text-3xl"></i>
 				<span class="text-2xl font-bold text-gray-800"
-					>ScrapCar<span class="text-orange-600">Pro</span></span
+					>ScrapMyCar<span class="text-orange-600">Ltd</span></span
 				>
 			</div>
 			<div class="hidden md:flex items-center gap-8">
