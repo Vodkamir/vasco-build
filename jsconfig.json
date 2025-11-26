@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./src/lib/*"]
+			// "$lib/*": ["./resources/js/components/*"]
+		}
+	},
+	"include": ["./src/lib/**/*"]
+	// "exclude": ["./node_modules/**"]
+}
