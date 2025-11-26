@@ -61,7 +61,7 @@
 		</div>
 		<div class="border-t border-gray-800 pt-8 text-center">
 			<p class="text-gray-400">
-				&amp; 2024 ScrapCarPro. All rights reserved. Licensed &amp; Authorized Scrap Dealer.
+				&amp; 2024 ScrapMyCarLtd. All rights reserved. Licensed &amp; Authorized Scrap Dealer.
 			</p>
 		</div>
 	</div>
