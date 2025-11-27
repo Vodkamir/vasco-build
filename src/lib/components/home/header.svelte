@@ -34,20 +34,21 @@
 		</div>
 		{#if isMenuOpen}
 			<div class="md:hidden mt-4 space-y-2">
-				<a href="#how-it-works" class="block text-gray-700 hover:text-orange-600 transition py-2"
+				<a href="#how-it-works" onclick={() => (isMenuOpen = false)} class="block text-gray-700 hover:text-orange-600 transition py-2"
 					>How It Works</a
 				>
-				<a href="#services" class="block text-gray-700 hover:text-orange-600 transition py-2"
+				<a href="#services" onclick={() => (isMenuOpen = false)} class="block text-gray-700 hover:text-orange-600 transition py-2"
 					>Services</a
 				>
-				<a href="#why-us" class="block text-gray-700 hover:text-orange-600 transition py-2"
+				<a href="#why-us" onclick={() => (isMenuOpen = false)} class="block text-gray-700 hover:text-orange-600 transition py-2"
 					>Why Choose Us</a
 				>
-				<a href="#contact" class="block text-gray-700 hover:text-orange-600 transition py-2"
+				<a href="#contact" onclick={() => (isMenuOpen = false)} class="block text-gray-700 hover:text-orange-600 transition py-2"
 					>Contact</a
 				>
 				<a
 					href="#quote-form"
+					onclick={() => (isMenuOpen = false)}
 					class="block bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition font-semibold text-center"
 					>Get Free Quote</a
 				>
