@@ -1,8 +1,8 @@
 <section id="how-it-works" class="py-16 md:py-24 bg-gray-50">
 	<div class="container mx-auto px-4">
 		<div class="text-center mb-16">
-			<h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">How We Buy Your Car</h2>
-			<p class="text-xl text-gray-600">Simple, fast, and hassle-free process in just 3 steps</p>
+			<h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">From first call to finished job</h2>
+			<p class="text-xl text-gray-600">A clear, friendly process with no surprises.</p>
 		</div>
 		<div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
 			<div class="relative">
@@ -12,12 +12,11 @@
 					>
 						1
 					</div>
-					<h3 class="text-2xl font-bold text-gray-900 mb-4">Get Your Quote</h3>
+						<h3 class="text-2xl font-bold text-gray-900 mb-4">Tell us what you need</h3>
 					<p class="text-gray-600 mb-4">
-						Fill out our simple form with your car details. Get an instant, no-obligation cash quote
-						in minutes.
+						Give us a call or send a few details and photos. We will talk through the job and give you a clear estimate.
 					</p>
-					<i class="fas fa-clipboard-list text-orange-600 text-4xl"></i>
+					<i class="fas fa-comments text-orange-600 text-4xl"></i>
 				</div>
 				<div class="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
 					<i class="fas fa-arrow-right text-orange-600 text-3xl"></i>
@@ -30,10 +29,9 @@
 					>
 						2
 					</div>
-					<h3 class="text-2xl font-bold text-gray-900 mb-4">Accept &amp; Schedule</h3>
+						<h3 class="text-2xl font-bold text-gray-900 mb-4">Plan the work</h3>
 					<p class="text-gray-600 mb-4">
-						Happy with the price? Accept our offer and schedule a convenient collection time that
-						works for you.
+						We agree the scope, materials and timing before we start, so you always know what to expect.
 					</p>
 					<i class="fas fa-calendar-check text-orange-600 text-4xl"></i>
 				</div>
@@ -47,12 +45,11 @@
 				>
 					3
 				</div>
-				<h3 class="text-2xl font-bold text-gray-900 mb-4">Get Paid</h3>
+						<h3 class="text-2xl font-bold text-gray-900 mb-4">Enjoy the result</h3>
 				<p class="text-gray-600 mb-4">
-					We collect your car and pay you on the spot. Cash in hand, paperwork sorted. It's that
-					simple!
+					We do the job properly, clear up after ourselves and leave your space ready to use.
 				</p>
-				<i class="fas fa-money-bill-wave text-orange-600 text-4xl"></i>
+				<i class="fas fa-check-double text-orange-600 text-4xl"></i>
 			</div>
 		</div>
 	</div>

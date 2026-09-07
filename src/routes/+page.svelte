@@ -7,7 +7,6 @@
 	import WhyChooseUs from '../lib/components/home/why-choose-us.svelte';
 	import FinalCTA from '../lib/components/home/final-cta.svelte';
 	import Footer from '../lib/components/home/footer.svelte';
-	import GetYourFreeQuote from '../lib/components/home/get-your-free-quote.svelte';
 </script>
 
 <div>
@@ -18,6 +17,5 @@
 	<FastCollection />
 	<WhyChooseUs />
 	<FinalCTA />
-	<GetYourFreeQuote />
 	<Footer />
 </div>
